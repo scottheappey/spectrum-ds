@@ -1,0 +1,41 @@
+/* FloatingLabelInput.css */
+.floating-label-input {
+    position: relative;
+    margin: 10px 0;
+  }
+  
+  .floating-label-input input {
+    width: 100%;
+    border: none;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    padding: 10px 14px 9.5px;
+    box-sizing: border-box;
+  }
+  
+  .floating-label-input label {
+    position: absolute;
+    left: 10px;
+    top: -7px;
+    cursor: text;
+    transition: all 0.15s ease;
+    background: white;
+    padding: 0 5px;
+    border-radius: 3px;
+    /* color: #aaa; */
+    opacity: 0;
+    font-size: 12px;
+  }
+  
+  .floating-label-input.focused label,
+  .floating-label-input input:not(:placeholder-shown) + label,
+  .floating-label-input input:focus + label {
+    /* top: 0; */
+    opacity: 1;
+    
+    color: #787878;
+  }
+  
+
+/*# sourceMappingURL=stories-forms-FloatingLabelInput-stories.b37205a8.chunk.css.map*/
